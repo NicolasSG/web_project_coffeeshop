@@ -50,27 +50,31 @@
 }
 
 .header__title {
-  margin-top: 183px;
-  margin-left: 80px;
+  margin: 0;
   margin-bottom: 0;
   max-width: 709px;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
+  font-family: "Inter";
+  font-style: normal;
+  letter-spacing: -1px;
+  padding: 0;
 }
 
 .header__title_span-accent {
+  margin-left: 80px;
+  margin-top: 183px;
   font-family: "Noto Serif";
   font-style: italic;
-  font-size: 58px;
-  line-height: 72px;
-  color: #2f80ed;
   display: block;
+  font-weight: normal;
+  color: #2f80ed;
 }
 
-.header__title-text {
-  margin: 0;
+.header__title_subtitle {
+  margin-left: 80px;
 }
 
 .header__description {
