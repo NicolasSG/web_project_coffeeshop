@@ -48,10 +48,7 @@
   color: black;
 }
 
-.header__content {
-  /* display: flex;
-  justify-content: space-between; */
-
+.header__title {
   height: auto;
   display: block;
   position: relative;
@@ -60,7 +57,7 @@
   margin-left: 80px;
 }
 
-.header__title {
+.header__title-text {
   margin-top: 183px;
   margin-bottom: 28px;
   max-width: 709px;
@@ -70,7 +67,7 @@
   letter-spacing: 1px;
 }
 
-.header__title_span-accent {
+.header__title-text_span-accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-size: 58px;
