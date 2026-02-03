@@ -42,9 +42,9 @@
           <span class="header__title header__title_span-accent"
             >Café especial</span
           >
-          <p class="header__title header__title_subtitle">
+          <h2 class="header__title header__title_subtitle">
             na biblioteca Triple Peaks
-          </p>
+          </h2>
         </h1>
         <p class="header__description">
           Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
@@ -121,7 +121,59 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="reservation__form">
+            <div class="reservation__fieldset">
+              <label class="reservation__label" for="name">Nome *</label>
+              <input
+                class="reservation__input"
+                type="text"
+                id="name"
+                placeholder="Nome"
+                required
+              />
+              <label class="reservation__label" for="guests"
+                >Número de convidados *</label
+              >
+              <input
+                class="reservation__input"
+                type="number"
+                id="guests"
+                placeholder="1-8"
+                required
+              />
+              <label class="reservation__label" for="date">Data e hora *</label>
+              <input
+                class="reservation__input"
+                type="datetime-local"
+                id="date"
+                required
+              />
+              <label class="reservation__label" for="email">Seu e-mail *</label>
+              <input
+                class="reservation__input"
+                type="email"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+            </div>
+            <button class="reservation__button" type="submit">
+              Reservar mesa
+            </button>
+            <input
+              class="reservation__checkbox"
+              type="checkbox"
+              id="terms"
+              name="terms"
+              required
+            />
+            <label class="reservation__label" for="terms"
+              >Eu concordo com os termos de uso</label
+            >
+          </form>
+        </section>
       </main>
       <footer class="footer" id="footer">
         <p></p>
