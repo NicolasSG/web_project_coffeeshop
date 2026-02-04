@@ -213,10 +213,12 @@
   align-items: center;
   font-family: Inter;
   font-style: normal;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
-  margin: 100px auto 80px;
+  margin: 0 auto 80px;
   text-align: center;
   font-weight: 500;
   font-size: 44px;
@@ -225,7 +227,6 @@
 
 .reservation__form {
   max-width: 385px;
-  margin-bottom: 120px;
   align-items: center;
   text-align: center;
 }
